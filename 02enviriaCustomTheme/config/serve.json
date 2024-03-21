@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://michaelredl.sharepoint.com/SitePages/en/Home.aspx",
+      "customActions": {
+        "2f97e390-178c-4831-8855-579a7ba3bc65": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "customTheme": {
+      "pageUrl": "https://michaelredl.sharepoint.com/SitePages/en/Home.aspx",
+      "customActions": {
+        "2f97e390-178c-4831-8855-579a7ba3bc65": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
