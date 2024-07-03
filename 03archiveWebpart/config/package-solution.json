@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "archive-webpart-client-side-solution",
+    "id": "a3801afc-99e3-4320-a129-2e0c8639b97f",
+    "version": "1.0.0.3",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "archive-webpart description"
+      },
+      "longDescription": {
+        "default": "archive-webpart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "archive-webpart Feature",
+        "description": "The feature that activates elements of the archive-webpart solution.",
+        "id": "20c7f25f-0a8c-41b6-b015-fb6dda896cad",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/archive-webpart.sppkg"
+  }
+}
